@@ -3,43 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/cb33723844.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Bubbles&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div>
-          <h1>S <span>M</span></h1>
-        </div>
-        <div class="sub-container">
-          <div><a href="#home">Home</a></div>
-          <div><a href="#about">About</a></div>
-          <div><a href="#skills">Skills</a></div>
-        </div>
-      </div>
-    </header>
-
     <section id="home">
-      <div class="socials">
-        <div>L</div>
-        <div>G</div>
-      </div>
-      <div class="page-1">
-        <h2>Hey, My name is Senamile Mthethwa</h2>
-        <p>
-          Welcome to my software portfolio, where technical expertise and
-          creative problem-solving come together. As a dedicated IT graduate in
-          Applications Development, I specialize in building seamless,
-          efficient, and innovative software solutions. My journey in coding is
-          driven by a passion for turning complex challenges into simple,
-          elegant applications. Join me as I showcase my ability to bring
-          digital visions to life.
-        </p>
-        <div class="projects"><button>Projects</button></div>
+      <header>
+        <div class="container">
+          <div class="logo">
+            <h1>SM</h1>
+          </div>
+          <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+          <div class="sub-container">
+            <div class="link"><a href="#home">HOME</a></div>
+            <div class="link"><a href="#about">ABOUT</a></div>
+            <div class="link"><a href="#skills">SKILLS</a></div>
+            <div class="button"><button>RESUME</button></div>
+          </div>
+        </div>
+      </header>
+
+      <div class="home">
+        <div class="socials">
+          <div><i class="fa-brands fa-linkedin"></i></div>
+          <div><i class="fa-brands fa-square-github"></i></div>
+          <div><i class="fa-brands fa-square-instagram"></i></div>
+        </div>
+        <div class="page-1">
+          <h2>Hey, <br />My name is Senamile Mthethwa</h2>
+          <p>
+            Welcome to my software portfolio, where technical expertise and
+            creative problem-solving come together. As a dedicated IT graduate
+            in Applications Development, I specialize in building seamless,
+            efficient, and innovative software solutions. My journey in coding
+            is driven by a passion for turning complex challenges into simple,
+            elegant applications. Join me as I showcase my ability to bring
+            digital visions to life.
+          </p>
+          <div class="projects"><button><a href="#projects">Projects</a></button></div>
+        </div>
       </div>
     </section>
     <section id="about">
-      <h3>About me</h3>
+      <h3>ABOUT ME</h3>
       <div class="About">
         <div class="about-me">
           <p>
@@ -62,28 +88,89 @@
             boundaries of what I can achieve.
           </p>
         </div>
-        <div class="about-image"></div>
+
+        <div class="about-image"><img src="senah.jpg" alt="" /></div>
       </div>
     </section>
     <section id="skills">
       <h4>Skills</h4>
-      <div class="skills">Html</div>
-      <div class="skills">Html</div>
-      <div class="skills">Html</div>
-      <div class="skills">Html</div>
-      <div class="skills">Html</div>
-      <div class="skills">Html</div>
-      <div class="skills">Html</div>
+      <div class="skills-container">
+        <div class="skill">
+          <p>HTML</p>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>CSS</p>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>JavaScript</p>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 75%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>SQL</p>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>C#</p>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 75%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>GitHub</p>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>APIs</p>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 50%"></div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="projects">
       <h4>Projects</h4>
-      <div>Weather App</div>
-      <div>Music App</div>
+      <div class="weather-application">
+      
+      <div class="projects-container">
+        <h5>Weather App</h5>
+          <div class="project">
+            <div  class="weather-image">
+            <img src="weatherIMG.PNG" alt="" />
+            </div>
+            <div class="paragraphy">
+            <p>
+              Provides real-time conditions such as Current Time, Atmospheric Pressure, Temperature, Humidity and Wind Speed. 
+            </p>
+            <p>Offers 5 day weather forecast</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript and APIs</p>
+            <div class="buttons">
+             <div><button><a href="https://weatherappint.netlify.app/">Open Project</a></button></div>
+              <div><button><a href="">Source Code</a></button></div>
+            </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+       </div>
     </section>
 
     <footer>
       <p>Coded by Senamile Mthethwa</p>
     </footer>
   </body>
+ <script src="script.js"></script>
 </html>
