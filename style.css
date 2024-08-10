@@ -300,7 +300,7 @@ footer {
     display: none;
     flex-direction: column;
     width: 100%;
-    background-color: #f9f9f9;
+    background-color: rgb(229, 209, 216);
     position: absolute;
     top: 60px;
     left: 0;
@@ -325,7 +325,7 @@ footer {
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .page-1 p {
     font-size: 16px;
@@ -338,6 +338,14 @@ footer {
   h4 {
     font-size: 1.5em;
   }
+  .button button {
+    border-radius: 0;
+    font-weight: 500;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+
   .About {
     flex-direction: column-reverse;
     align-items: center;
@@ -360,6 +368,7 @@ footer {
     font-size: 1em;
   }
   .socials {
+    margin-top: 180px;
     width: 40px;
     height: 120px;
   }
