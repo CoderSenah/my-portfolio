@@ -365,7 +365,11 @@ footer {
   }
 
   .skill {
-    width: 3dvh;
+    flex-direction: column;
+    width: 400px;
+    padding-right: 20px;
+    text-align: center;
+    align-items: center;
   }
   .skill p {
     font-size: 1em;
