@@ -327,6 +327,9 @@ footer {
   h2 {
     font-size: 30px;
   }
+  .page-1 {
+    margin: 20px;
+  }
   .page-1 p {
     font-size: 16px;
   }
@@ -362,7 +365,7 @@ footer {
   }
 
   .skill {
-    width: 400px;
+    width: 3dvh;
   }
   .skill p {
     font-size: 1em;
